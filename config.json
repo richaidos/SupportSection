@@ -1,3 +1,11 @@
 {
-    "port": ":8080"
+    "port": ":8080",
+    "database": {
+        "user": "aidos",
+        "password": "aidos",
+        "host": "localhost",
+        "port": "5432",
+        "dbname": "SupportSection",
+        "sslmode": "disable"
+    }
 }

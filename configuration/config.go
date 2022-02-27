@@ -7,7 +7,16 @@ import (
 )
 
 type Config struct {
-	Port string `json:"port"`
+	Port     string   `json:"port"`
+	Database Database `json:"database"`
+}
+type Database struct {
+	User     string `json:"user"`
+	Password string `json:"password"`
+	Host     string `json:"host"`
+	Port     string `json:"port"`
+	Dbname   string `json:"dbname"`
+	Sslmode  string `json:"sslmode"`
 }
 
 func LoadConfig(path string) (*Config, error) {
