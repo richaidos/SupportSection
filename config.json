@@ -2,10 +2,10 @@
     "port": ":8080",
     "database": {
         "user": "aidos",
-        "password": "aidos",
-        "host": "localhost",
+        "password": "jouEnlgMeEVhaJlO0Mpw1ovcR3ro5Zct",
+        "host": "dpg-c8eh51vs437t87lmk8f0",
         "port": "5432",
-        "dbname": "SupportSection",
+        "dbname": "aidos",
         "sslmode": "disable"
     }
 }
